@@ -6,7 +6,7 @@
 | Component | Specification | Purpose |
 |-----------|--------------|---------|
 | ESP8266 | NodeMCU/Wemos D1 Mini | Main controller |
-| Servo Motor | SG90 or similar | Light positioning |
+| Servo Motor | 996R or similar | Light positioning |
 | Jumper Wires | Male-to-Male | Connections |
 | Power Supply | 5V 2A (optional) | Servo power |
 | Breadboard | Half-size (optional) | Prototyping |
@@ -31,7 +31,7 @@ GND            →    Brown/Black    →    Ground (0V)
      │                 │
      │  5V ●──────────●── VCC (Red)      } Servo
      │                 │                 } Motor
-     │ GND ●──────────●── GND (Brown)    } SG90
+     │ GND ●──────────●── GND (Brown)    } 996R
      │                 │
      └─────────────────┘
 ```
