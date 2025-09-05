@@ -17,8 +17,7 @@ We take the security of our project seriously. If you discover a security vulner
 
 1. **DO NOT** create a public GitHub issue for security vulnerabilities
 2. **DO NOT** discuss the vulnerability in public forums or social media
-3. **DO** email us privately at: [your-security-email@example.com]
-4. Include the following information:
+3. Include the following information:
    - Description of the vulnerability
    - Steps to reproduce the issue
    - Potential impact assessment
@@ -82,14 +81,6 @@ We take the security of our project seriously. If you discover a security vulner
 
 ## Security Best Practices
 
-### For Developers
-
-1. **Code Review**: All changes should be reviewed for security implications
-2. **Input Validation**: Always validate user inputs
-3. **Error Handling**: Don't expose sensitive information in error messages
-4. **Dependencies**: Keep libraries updated to latest secure versions
-5. **Testing**: Include security testing in CI/CD pipeline
-
 ### For Users
 
 1. **Change Default Password**: Use a strong, unique WiFi password
@@ -117,35 +108,6 @@ We take the security of our project seriously. If you discover a security vulner
 - 🔄 HTTPS support option
 - 🔄 Access logging
 
-## Vulnerability Response Process
-
-### Severity Classifications
-
-**Critical**: Remote code execution, device takeover
-- Response time: Immediate (within 24 hours)
-- Patch timeline: Within 7 days
-
-**High**: Authentication bypass, privilege escalation
-- Response time: Within 48 hours
-- Patch timeline: Within 14 days
-
-**Medium**: Information disclosure, denial of service
-- Response time: Within 5 days
-- Patch timeline: Within 30 days
-
-**Low**: Minor information leakage, configuration issues
-- Response time: Within 10 days
-- Patch timeline: Next regular release
-
-### Disclosure Timeline
-
-1. **Day 0**: Vulnerability reported
-2. **Day 1-2**: Initial assessment and acknowledgment
-3. **Day 3-7**: Investigation and patch development
-4. **Day 7-14**: Testing and validation
-5. **Day 14-30**: Release preparation and deployment
-6. **Day 30+**: Public disclosure (coordinated with reporter)
-
 ## Security Resources
 
 ### For Developers
@@ -158,13 +120,3 @@ We take the security of our project seriously. If you discover a security vulner
 - [WiFi Security Best Practices](https://www.cisa.gov/wifi)
 - [Smart Home Security Guide](https://www.nist.gov/cybersecurity)
 
-## Contact
-
-For security-related questions or concerns:
-- Security Email: [your-security-email@example.com]
-- General Issues: [GitHub Issues](../../issues)
-- Documentation: [GitHub Wiki](../../wiki)
-
----
-
-*This security policy is reviewed quarterly and updated as needed. Last updated: 2025-01-XX*
